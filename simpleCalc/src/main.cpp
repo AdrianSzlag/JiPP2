@@ -8,7 +8,11 @@ int main(int argc, char *argv[]) {
     /*for (int i = 0; i < argc; i++) {
         cout << argv[i] << endl;
     }*/
-    if(argc < 2) err();
+    if(argc < 2) {
+        err();
+        cout << "Uruchom:\nsimpleCalc help\naby uzyskac pomoc." << endl;
+        return 1;
+    }
     if(strcmp(argv[1],"add") == 0){
         if(argc != 4){
             err();
