@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.16)
+project(firstClass)
+set(CMAKE_CXX_STANDARD 17)
+include_directories(include)
+add_executable(firstClass src/main.cpp src/FirstClass.cpp src/Prostopadloscian.cpp include/Prostopadloscian.h)
