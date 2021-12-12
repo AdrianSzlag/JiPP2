@@ -4,6 +4,8 @@
 
 #include "class.h"
 #include "iostream"
+#include "../../lab7/include/class.h"
+
 
 using namespace std;
 
@@ -60,3 +62,4 @@ void Pojazd::SetNumerRejestracyjny(char *numerRejestracyjny) {
 }void Pojazd::SetNazwa(char *nazwa) {
     Pojazd::nazwa = nazwa;
 }
+
